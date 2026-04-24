@@ -19,7 +19,7 @@ const Ads = () => {
                                     <div className="upto">up to</div>
                                  </div>
                                  <div className="tg-ads-btn">
-                                    <Link href="/tour-details" className="tg-btn tg-btn-switch-animation">
+                                    <Link href="/tour-detail/eid-tropical-getaway" className="tg-btn tg-btn-switch-animation">
                                        <Button text="See Details" />
                                     </Link>
                                  </div>
@@ -39,7 +39,7 @@ const Ads = () => {
                                  <span>Discount</span>
                               </div>
                            </div>
-                           <Link href="/tour-details">On Flight Tickets</Link>
+                           <Link href="/tour-detail/eid-tropical-getaway">On Flight Tickets</Link>
                         </div>
                      </div>
                   </div>
@@ -54,7 +54,7 @@ const Ads = () => {
                               </div>
                            </div>
                            <div className="tg-ads-btn">
-                              <Link href="/tour-details" className="tg-btn tg-btn-switch-animation">
+                              <Link href="/tour-detail/eid-tropical-getaway" className="tg-btn tg-btn-switch-animation">
                                  <Button text="See Details" />
                               </Link>
                            </div>

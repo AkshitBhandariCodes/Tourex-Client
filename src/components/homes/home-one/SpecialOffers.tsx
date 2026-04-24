@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import listing_data from "@/data/ListingData";
+import { buildTourDetailHref } from "@/utils/tourDetailRoute";
 
 const slider_setting = {
    slidesPerView: 4,
@@ -63,7 +64,7 @@ const SpecialOffers = () => {
                                  <span>Starts from</span>
                                  <strong>${item.price}</strong>
                               </div>
-                              <Link href="/tour-details" className="tg-btn tg-btn-sm">
+                              <Link href={buildTourDetailHref(item.title)} className="tg-btn tg-btn-sm">
                                  Book Now
                               </Link>
                            </div>

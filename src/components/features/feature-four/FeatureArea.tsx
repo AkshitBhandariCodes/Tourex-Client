@@ -54,7 +54,7 @@ const FeatureArea = () => {
                                  <div key={item.id} className="col-12">
                                     <div className="tg-listing-card-item tg-listing-4-card-item mb-25">
                                        <div className="tg-listing-card-thumb tg-listing-2-card-thumb mb-15 fix p-relative">
-                                          <Link href="/tour-details-2">
+                                          <Link href="/tour-detail/eid-tropical-getaway">
                                              <Image className="tg-card-border w-100" src={item.thumb} alt="listing" />
                                              {item.tag && <span className="tg-listing-item-price-discount shape">{item.tag}</span>}
                                              {item.featured && <span className="tg-listing-item-price-discount shape-3">
@@ -69,7 +69,7 @@ const FeatureArea = () => {
                                        <div className="tg-listing-card-content mb-15 p-relative">
                                           <div className="d-flex justify-content-between">
                                              <div className="mr-30">
-                                                <h4 className="tg-listing-card-title mb-5"><Link href="/tour-details-2">{item.title}</Link></h4>
+                                                <h4 className="tg-listing-card-title mb-5"><Link href="/tour-detail/eid-tropical-getaway">{item.title}</Link></h4>
                                                 <div className="destination">
                                                    <span className="tg-listing-card-duration-map d-inline-block">
                                                       <svg width="13" height="16" viewBox="0 0 13 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -116,7 +116,7 @@ const FeatureArea = () => {
                                                 <span className="new">${item.price}</span>
                                                 <span className="shift">/night</span>
                                              </div>
-                                             <Link className="tg-listing-avai-btn" href="/tour-details-2">Check Availability</Link>
+                                             <Link className="tg-listing-avai-btn" href="/tour-detail/eid-tropical-getaway">Check Availability</Link>
                                           </div>
                                        </div>
                                     </div>

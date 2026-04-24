@@ -12,7 +12,7 @@ const CtaTwo = () => {
                      <h2 className="tg-section-title-white mb-25 wow fadeInUp" data-wow-delay=".5s" data-wow-duration=".9s">Popular Travel Destinations <br />Available Worldwide</h2>
                   </div>
                   <div className="tp-banner-btn-wrap wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".9s">
-                     <Link href="/tour-details" className="tg-btn tg-btn-transparent tg-btn-switch-animation">
+                     <Link href="/tour-detail/eid-tropical-getaway" className="tg-btn tg-btn-transparent tg-btn-switch-animation">
                         <Button text="Book Your Trip Now" />
                      </Link>
                   </div>

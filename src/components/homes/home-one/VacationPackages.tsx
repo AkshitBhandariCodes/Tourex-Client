@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import listing_data from "@/data/ListingData";
+import { buildTourDetailHref } from "@/utils/tourDetailRoute";
 
 const slider_setting = {
    slidesPerView: 2,
@@ -53,7 +54,7 @@ const VacationPackages = () => {
                            </div>
                            <div className="tg-smart-package-content">
                               <h4>
-                                 <Link href="/tour-details">{item.title}</Link>
+                                 <Link href={buildTourDetailHref(item.title)}>{item.title}</Link>
                               </h4>
                               <p className="tg-smart-package-location">
                                  <i className="fa-regular fa-location-dot"></i> {item.location}
@@ -71,7 +72,7 @@ const VacationPackages = () => {
                                     <span>Starting From</span>
                                     <strong>${item.price} / Person</strong>
                                  </div>
-                                 <Link href="/tour-details" className="tg-btn tg-btn-sm">
+                                 <Link href={buildTourDetailHref(item.title)} className="tg-btn tg-btn-sm">
                                     Book Now
                                  </Link>
                               </div>

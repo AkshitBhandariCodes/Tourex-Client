@@ -1,15 +1,11 @@
-import FeatureDetailsOne from "@/components/features/feature-details-one";
-import Wrapper from "@/layouts/Wrapper";
+import { redirect } from "next/navigation";
+import { DEFAULT_TOUR_SLUG } from "@/utils/tourDetailRoute";
 
 export const metadata = {
-  title: "Feature DetailsOne Tourex - Tour & Travel Booking React Next js Template",
+  title: "Tour Details | Tourex",
 };
 const page = () => {
-  return (
-    <Wrapper>
-      <FeatureDetailsOne />
-    </Wrapper>
-  )
+  redirect(`/tour-detail/${DEFAULT_TOUR_SLUG}`);
 }
 
 export default page

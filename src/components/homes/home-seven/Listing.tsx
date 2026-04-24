@@ -7,6 +7,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { useDispatch } from "react-redux"
 import { addToWishlist } from "@/redux/features/wishlistSlice"
+import { buildTourDetailHref } from "@/utils/tourDetailRoute";
 
 const setting = {
    spaceBetween: 24,
@@ -70,7 +71,7 @@ const Listing = () => {
                         <SwiperSlide key={item.id} className="swiper-slide">
                            <div className="tg-listing-card-item tg-listing-5-card-item mb-25">
                               <div className="tg-listing-card-thumb tg-listing-2-card-thumb mb-15 fix p-relative">
-                                 <Link href="/tour-details">
+                                 <Link href={buildTourDetailHref(item.title)}>
                                     <Image className="tg-card-border w-100" src={item.thumb} alt="listing" />
                                     {item.tag && <span className="tg-listing-item-price-discount shape">{item.tag}</span>}
                                     {item.featured && <span className="tg-listing-item-price-discount offer-btm shape-3">
@@ -98,7 +99,7 @@ const Listing = () => {
                                  </div>
                               </div>
                               <div className="tg-listing-card-content p-relative">
-                                 <h4 className="tg-listing-card-title mb-5"><Link href="/tour-details">{item.title}</Link></h4>
+                                 <h4 className="tg-listing-card-title mb-5"><Link href={buildTourDetailHref(item.title)}>{item.title}</Link></h4>
                                  <div className="tg-listing-card-review mb-5">
                                     <span className="tg-listing-rating-icon"><i className="fa-sharp fa-solid fa-star"></i></span>
                                     <span className="tg-listing-rating-icon"><i className="fa-sharp fa-solid fa-star"></i></span>
@@ -115,7 +116,7 @@ const Listing = () => {
                                     {item.location}
                                  </span>
                                  <div className="tg-listing-avai d-flex align-items-center justify-content-between">
-                                    <Link className="tg-listing-avai-btn" href="/tour-details">View Details</Link>
+                                    <Link className="tg-listing-avai-btn" href={buildTourDetailHref(item.title)}>View Details</Link>
                                     <div className="tg-listing-card-price d-flex align-items-center">
                                        <span className="form mr-5">From</span>
                                        <span className="price">${item.price}</span>

@@ -17,7 +17,7 @@ const Cta = () => {
                         <span>The Whole World !</span>
                      </h2>
                      <div className="tg-banner-5-btn text-center wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
-                        <Link href="/tour-details-2" className="tg-btn tg-btn-switch-animation">
+                        <Link href="/tour-detail/eid-tropical-getaway" className="tg-btn tg-btn-switch-animation">
                            <Button text="Find Awesome Deals" />
                         </Link>
                      </div>

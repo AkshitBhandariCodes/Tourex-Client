@@ -5,6 +5,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { useDispatch } from "react-redux"
 import { addToWishlist } from "@/redux/features/wishlistSlice"
+import { buildTourDetailHref } from "@/utils/tourDetailRoute";
 
 import shape_1 from "@/assets/img/listing/listing-2/shape-1.png"
 import shape_2 from "@/assets/img/listing/listing-2/shape-2.png"
@@ -41,7 +42,7 @@ const Listing = () => {
                   <div key={item.id} className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".3s" data-wow-duration=".6s">
                      <div className="tg-listing-card-item tg-listing-2-card-item mb-25">
                         <div className="tg-listing-card-thumb tg-listing-2-card-thumb fix p-relative">
-                           <Link href="/tour-details">
+                           <Link href={buildTourDetailHref(item.title)}>
                               <Image className="tg-card-border w-100" src={item.thumb} alt="listing" />
                               {item.featured &&
                                  <span className="tg-listing-item-price-discount shape-3">
@@ -71,7 +72,7 @@ const Listing = () => {
                                  <span className="shift">/night</span>
                               </div>
                            </div>
-                           <h4 className="tg-listing-card-title"><Link href="tour-details.html">{item.title}</Link></h4>
+                           <h4 className="tg-listing-card-title"><Link href={buildTourDetailHref(item.title)}>{item.title}</Link></h4>
                            <div className="tg-listing-card-review mb-5">
                               <span className="tg-listing-rating-icon"><i className="fa-sharp fa-solid fa-star"></i></span>
                               <span className="tg-listing-rating-icon"><i className="fa-sharp fa-solid fa-star"></i></span>

@@ -72,7 +72,7 @@ const Choose = () => {
                            </div>
                         </div>
                         <div className="tg-chose-btn wow fadeInUp" data-wow-delay=".8s" data-wow-duration=".9s">
-                           <Link href="/tour-details" className="tg-btn tg-btn-switch-animation">
+                           <Link href="/tour-detail/eid-tropical-getaway" className="tg-btn tg-btn-switch-animation">
                               <Button text="Book Your Trip" />
                            </Link>
                         </div>

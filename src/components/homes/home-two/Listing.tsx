@@ -5,6 +5,7 @@ import listing_data from "@/data/ListingData"
 import Link from "next/link"
 import { useDispatch } from "react-redux"
 import { addToWishlist } from "@/redux/features/wishlistSlice"
+import { buildTourDetailHref } from "@/utils/tourDetailRoute";
 
 import shape_1 from "@/assets/img/listing/su/shape-3.png"
 
@@ -33,7 +34,7 @@ const Listing = () => {
                   <div key={item.id} className="col-xl-4 col-lg-4 col-md-6">
                      <div className="tg-listing-card-item tg-listing-su-card-item mb-25">
                         <div className="tg-listing-card-thumb fix mb-25 p-relative">
-                           <Link href="/tour-details">
+                           <Link href={buildTourDetailHref(item.title)}>
                               <Image className="tg-card-border w-100" src={item.thumb} alt="listing" />
                               {item.tag && <span className="tg-listing-item-price-discount">{item.tag}</span>}
                            </Link>
@@ -67,7 +68,7 @@ const Listing = () => {
                                  {item.guest}
                               </span>
                            </div>
-                           <h4 className="tg-listing-card-title mb-10"><Link href="tour-details.html">{item.title}</Link></h4>
+                           <h4 className="tg-listing-card-title mb-10"><Link href={buildTourDetailHref(item.title)}>{item.title}</Link></h4>
                            <div className="tg-listing-card-duration-tour mb-20">
                               <span className="tg-listing-card-duration-map">
                                  <svg width="13" height="16" viewBox="0 0 13 16" fill="none" xmlns="http://www.w3.org/2000/svg">

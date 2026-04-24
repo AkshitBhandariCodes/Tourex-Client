@@ -9,6 +9,7 @@ import User from "@/svg/home-one/User"
 import Location from "@/svg/home-one/Location"
 import { useDispatch } from "react-redux"
 import { addToWishlist } from "@/redux/features/wishlistSlice"
+import { buildTourDetailHref } from "@/utils/tourDetailRoute";
 
 import shape_1 from "@/assets/img/listing/su/shape-2.png"
 import shape_2 from "@/assets/img/listing/su/shape-1.png"
@@ -39,7 +40,7 @@ const Listing = () => {
                   <div key={item.id} className="col-xl-4 col-lg-4 col-md-6">
                      <div className="tg-listing-card-item tg-listing-su-card-item mb-25">
                         <div className="tg-listing-card-thumb fix mb-25 p-relative">
-                           <Link href="/tour-details">
+                           <Link href={buildTourDetailHref(item.title)}>
                               <Image className="tg-card-border w-100" src={item.thumb} alt="listing" />
                               {item.tag && <span className="tg-listing-item-price-discount">{item.tag}</span>}
                            </Link>
@@ -60,7 +61,7 @@ const Listing = () => {
                                  {item.guest}
                               </span>
                            </div>
-                           <h4 className="tg-listing-card-title mb-10"><Link href="tour-details.html">{item.title}</Link></h4>
+                           <h4 className="tg-listing-card-title mb-10"><Link href={buildTourDetailHref(item.title)}>{item.title}</Link></h4>
                            <div className="tg-listing-card-duration-tour mb-20">
                               <span className="tg-listing-card-duration-map">
                                  <Location />

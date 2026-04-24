@@ -9,7 +9,7 @@ const Ads = () => {
       <div className="tg-blog-ads p-relative mb-40">
          <Image className="w-100" src={ads} alt="ads" />
          <div className="tg-blog-ads-btn">
-            <Link href="/tour-details" className="tg-btn tg-btn-transparent tg-btn-switch-animation">
+            <Link href="/tour-detail/eid-tropical-getaway" className="tg-btn tg-btn-transparent tg-btn-switch-animation">
                <Button text="Book Now" />
             </Link>
          </div>

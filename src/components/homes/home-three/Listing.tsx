@@ -7,6 +7,7 @@ import Link from "next/link"
 import listing_data from "@/data/ListingData";
 import { useDispatch } from "react-redux"
 import { addToWishlist } from "@/redux/features/wishlistSlice"
+import { buildTourDetailHref } from "@/utils/tourDetailRoute";
 
 import shape_1 from "@/assets/img/listing/about-shape.png"
 import shape_2 from "@/assets/img/listing/about-shape-2.png"
@@ -133,7 +134,7 @@ const Listing = () => {
                   <div key={item.id} className={`col-xxl-3 col-xl-4 col-lg-4 col-md-6 grid-item grid-sizer ${item.category} isotope-filter-item`}>
                      <div className="tg-listing-card-item mb-30">
                         <div className="tg-listing-card-thumb fix mb-15 p-relative">
-                           <Link href="/tour-details">
+                           <Link href={buildTourDetailHref(item.title)}>
                               <Image className="tg-card-border w-100" src={item.thumb} alt="listing" />
                               {item.tag && <span className="tg-listing-item-price-discount shape">{item.tag}</span>}
                               {item.featured &&
@@ -153,7 +154,7 @@ const Listing = () => {
                            </div>
                         </div>
                         <div className="tg-listing-card-content">
-                           <h4 className="tg-listing-card-title"><Link href="/tour-details">{item.title}</Link></h4>
+                           <h4 className="tg-listing-card-title"><Link href={buildTourDetailHref(item.title)}>{item.title}</Link></h4>
                            <div className="tg-listing-card-duration-tour">
                               <span className="tg-listing-card-duration-map mb-5">
                                  <svg width="13" height="16" viewBox="0 0 13 16" fill="none" xmlns="http://www.w3.org/2000/svg">

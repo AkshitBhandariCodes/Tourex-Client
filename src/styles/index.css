@@ -1,3 +1,23 @@
+.tg-header-solid {
+	border-bottom: 1px solid var(--tg-border-1);
+}
+
+.tg-header-solid .tgmenu__navbar-wrap ul li > a,
+.tg-header-solid .tg-header-contact-number span,
+.tg-header-solid .tg-header-contact-number a,
+.tg-header-solid .tg-header-cart button,
+.tg-header-solid .tg-btn-header {
+	color: var(--tg-common-black);
+}
+
+.tg-header-solid .tg-btn-header {
+	border-color: var(--tg-border-1);
+}
+
+.tg-header-solid .tg-header-border {
+	background: var(--tg-border-1);
+}
+
 @import "react-toastify/dist/ReactToastify.css";
 @import 'react-modal-video/css/modal-video.css';
 @import "swiper/css/bundle";

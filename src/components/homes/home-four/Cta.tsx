@@ -18,7 +18,7 @@ const Cta = () => {
                         <h4 className="tg-banner-subtitle mb-10">Enjoy Summer Deals</h4>
                         <h2 className="tg-banner-title mb-25">Up to 40% Discount!</h2>
                         <div className="tg-banner-btn">
-                           <Link href="/tour-details" className="tg-btn tg-btn-switch-animation">
+                           <Link href="/tour-detail/eid-tropical-getaway" className="tg-btn tg-btn-switch-animation">
                               <Button text='See Details' />
                            </Link>
                         </div>
