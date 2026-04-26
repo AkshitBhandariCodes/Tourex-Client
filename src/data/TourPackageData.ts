@@ -8,7 +8,7 @@ const basePackage: TourPackage = {
   title: "Eid Tropical Getaway at Bandos Island Resort",
   destination: "Maldives",
   currency: "SAR",
-  heroImage: "/assets/img/banner/banner-5.jpg",
+  heroImage: "/assets/img/tour-details/thumb-1.jpg",
   imageGallery: [
     "/assets/img/tour-details/thumb-1.jpg",
     "/assets/img/tour-details/thumb-2.jpg",

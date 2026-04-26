@@ -2,6 +2,23 @@
 	border-bottom: 1px solid var(--tg-border-1);
 }
 
+@font-face {
+	font-family: "soligant";
+	src: local("Soligant"), local("soligant");
+	font-display: swap;
+}
+
+.tg-home-main-heading {
+	font-family: "soligant", serif !important;
+	font-size: 58px !important;
+	font-weight: 500 !important;
+	line-height: 63.8px !important;
+	color: rgb(255, 255, 255) !important;
+	margin: 0 auto;
+	max-width: 760px;
+	text-align: center;
+}
+
 .tg-header-solid .tgmenu__navbar-wrap ul li > a,
 .tg-header-solid .tg-header-contact-number span,
 .tg-header-solid .tg-header-contact-number a,
@@ -33,26 +50,197 @@
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-	gap: 10px;
-	margin: 0 0 18px;
+	gap: 12px;
+	margin: 0;
 	padding: 0;
 	list-style: none;
 }
 
-.tg-home-booking-tabs li {
-	border: 1px solid rgba(255, 255, 255, 0.3);
-	border-radius: 999px;
-	padding: 8px 16px;
-	color: #fff;
-	font-size: 14px;
-	line-height: 1;
-	background: rgba(255, 255, 255, 0.06);
+.tg-home-main-hero-three {
+	position: relative;
+	min-height: 740px;
 }
 
-.tg-home-booking-tabs li.active {
+.tg-home-main-hero-three::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	background: linear-gradient(180deg, rgba(25, 35, 62, 0.2) 0%, rgba(8, 13, 28, 0.46) 70%, rgba(8, 13, 28, 0.58) 100%);
+	pointer-events: none;
+	z-index: 1;
+}
+
+.tg-home-main-hero-three .tg-hero-content-area,
+.tg-home-main-hero-three .container {
+	position: relative;
+	z-index: 2;
+}
+
+.tg-home-main-hero-three .tg-hero-content-area {
+	position: absolute;
+	inset: 0;
+	display: flex;
+	align-items: flex-start;
+	padding-top: 138px;
+}
+
+.tg-home-main-hero-three .tg-hero-content {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.tg-home-main-hero-title {
+	margin-bottom: 44px !important;
+}
+
+.tg-home-main-hero-three .tg-hero-title {
+	margin-bottom: 0 !important;
+	border: none;
+}
+
+.tg-home-booking-shell {
+	display: inline-block;
+	width: min(1080px, 100%);
 	background: #fff;
-	color: #18243f;
-	border-color: #fff;
+	border: 1px solid #cfd5de;
+	border-radius: 18px;
+	padding: 14px 16px 16px;
+	box-shadow: 0 10px 22px rgba(13, 23, 46, 0.3);
+}
+
+.tg-home-booking-tabs li {
+	margin: 0;
+	padding: 0;
+}
+
+.tg-home-booking-tabs li label {
+	border: 1px solid #d5d9e1;
+	border-radius: 999px;
+	padding: 10px 21px;
+	color: #141a26;
+	line-height: 1;
+	background: #fff;
+	display: inline-flex;
+	align-items: center;
+	gap: 7px;
+	font-family: var(--tg-ff-outfit);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+
+.tg-home-booking-tabs li input {
+	position: absolute;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.tg-home-booking-tabs li:has(input:checked) label {
+	color: #141a26;
+	border-color: #d6d8de;
+	box-shadow: 0 3px 10px rgba(16, 24, 40, 0.06);
+}
+
+.tg-home-booking-tabs li i {
+	font-size: 17px;
+}
+
+.tg-home-booking-tabs li span {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.1;
+}
+
+.tg-home-booking-tabs li i.fa-angle-down {
+	font-size: 14px;
+}
+
+.tg-home-booking-form {
+	margin-top: 14px;
+	border-top: 1px solid #ebeff5;
+	padding-top: 12px;
+}
+
+.tg-home-booking-form .tg-booking-form-input-group {
+	justify-content: space-between;
+}
+
+.tg-home-booking-form .tg-booking-form-parent-inner {
+	margin-bottom: 6px;
+}
+
+.tg-home-booking-form .tg-booking-form-search-btn {
+	margin-bottom: 6px;
+}
+
+@media (max-width: 991px) {
+	.tg-home-main-hero-three .tg-hero-content {
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+	}
+
+	.tg-home-main-hero-three .tg-hero-content-area {
+		padding-top: 120px;
+	}
+
+	.tg-home-main-heading {
+		font-size: 44px !important;
+		line-height: 1.12 !important;
+		max-width: 520px;
+	}
+
+	.tg-home-booking-shell {
+		display: block;
+		padding: 14px;
+	}
+
+	.tg-home-booking-tabs {
+		gap: 8px 10px;
+	}
+
+	.tg-home-booking-tabs li label {
+		padding: 9px 14px;
+	}
+
+	.tg-home-booking-tabs li span {
+		font-size: 15px;
+	}
+
+	.tg-home-booking-form .tg-booking-form-input-group {
+		gap: 10px;
+	}
+}
+
+@media (max-width: 575px) {
+	.tg-home-main-hero-three .tg-hero-content {
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+	}
+
+	.tg-home-main-hero-three .tg-hero-content-area {
+		padding-top: 108px;
+	}
+
+	.tg-home-main-heading {
+		font-size: 34px !important;
+		line-height: 1.12 !important;
+		max-width: 360px;
+	}
+
+	.tg-home-booking-tabs {
+		justify-content: flex-start;
+	}
+
+	.tg-home-booking-tabs li label {
+		padding: 8px 12px;
+	}
+
+	.tg-home-booking-tabs li span {
+		font-size: 14px;
+	}
+
+	.tg-home-booking-form .tg-booking-form-search-btn {
+		width: 100%;
+	}
 }
 
 .tg-smart-offer-card {
