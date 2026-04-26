@@ -25,7 +25,7 @@ const TourDetailPage = async ({ params }: PageProps) => {
     <>
       <HeaderThree solid />
       <main>
-        <TourDetailExperience tourPackage={tourPackage} />
+        <TourDetailExperience tourPackage={tourPackage} step="search_results" />
       </main>
       <FooterSix />
     </>
