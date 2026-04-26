@@ -1,0 +1,265 @@
+(node:34688) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ⨯ The requested resource isn't a valid image for /assets/img/banner/banner-5.jpg received null
+ ⨯ Error: Could not find the module "D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\next-devtools\userspace\app\segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>) {
+  digest: '3402665469'
+}
+ ⨯ Error: Could not find the module "D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\next-devtools\userspace\app\segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>) {
+  digest: '3402665469'
+}
+ ⨯ Error: Could not find the module "D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\next-devtools\userspace\app\segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>) {
+  digest: '3402665469'
+}
+ ⨯ Error: Could not find the module "D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\next-devtools\userspace\app\segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>) {
+  digest: '3402665469'
+}
+ ⨯ Error: Could not find the module "D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\next-devtools\userspace\app\segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>) {
+  digest: '3402665469'
+}
+ ⨯ Error: Could not find the module "D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\next-devtools\userspace\app\segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>) {
+  digest: '3402665469'
+}
+ ⨯ [TypeError: __webpack_modules__[moduleId] is not a function] {
+  digest: '2889494644'
+}
+ ⨯ Error: Could not find the module "D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\next-devtools\userspace\app\segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>) {
+  digest: '3402665469'
+}
+[TypeError: __webpack_modules__[moduleId] is not a function]
+ ⨯ [TypeError: __webpack_modules__[moduleId] is not a function]
+ ⨯ [TypeError: __webpack_modules__[moduleId] is not a function] {
+  page: '/'
+}
+ ⨯ Error: Cannot find module './3073.js'
+Require stack:
+- D:\Projects\tourex-intern\next\tourex\.next\server\webpack-runtime.js
+- D:\Projects\tourex-intern\next\tourex\.next\server\app\[...not-found]\page.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\server\require.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\server\load-components.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\build\utils.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\build\swc\options.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\build\swc\index.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\server\config.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\server\next.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (D:\Projects\tourex-intern\next\tourex\.next\server\app\tour-detail\[slug]\page.js:2:11474)
+    at Object.<anonymous> (D:\Projects\tourex-intern\next\tourex\.next\server\app\tour-detail\[slug]\page.js:2:11544) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/tour-detail/eid-tropical-getaway'
+}
+ ⨯ Failed to generate static paths for /[...not-found]:
+[Error: Cannot find module './vendor-chunks/@reduxjs.js'
+Require stack:
+- D:\Projects\tourex-intern\next\tourex\.next\server\webpack-runtime.js
+- D:\Projects\tourex-intern\next\tourex\.next\server\app\[...not-found]\page.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\server\require.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\server\load-components.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\build\utils.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\compiled\jest-worker\processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/@reduxjs.js'
+Require stack:
+- D:\Projects\tourex-intern\next\tourex\.next\server\webpack-runtime.js
+- D:\Projects\tourex-intern\next\tourex\.next\server\app\[...not-found]\page.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\server\require.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\server\load-components.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\build\utils.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\compiled\jest-worker\processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/favicon.ico'
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/@reduxjs.js'
+Require stack:
+- D:\Projects\tourex-intern\next\tourex\.next\server\webpack-runtime.js
+- D:\Projects\tourex-intern\next\tourex\.next\server\app\[...not-found]\page.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\server\require.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\server\load-components.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\build\utils.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\compiled\jest-worker\processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/favicon.ico'
+}
+ ⨯ ./src/components/pages/tour-detail/TourDetailExperience.tsx
+Error: 
+
+Caused by:
+    0: Failed to read source code from D:\Projects\tourex-intern\next\tourex\src\components\pages\tour-detail\TourDetailExperience.tsx
+    1: The system cannot find the file specified. (os error 2)
+
+Import trace for requested module:
+./src/components/pages/tour-detail/TourDetailExperience.tsx
+./src/app/tour-detail/[slug]/page.tsx
+ ⨯ ./src/components/pages/tour-detail/TourDetailExperience.module.css
+Error: ENOENT: no such file or directory, open 'D:\Projects\tourex-intern\next\tourex\src\components\pages\tour-detail\TourDetailExperience.module.css'
+
+Import trace for requested module:
+./src/components/pages/tour-detail/TourDetailExperience.module.css
+./src/components/pages/tour-detail/TourDetailExperience.tsx
+ ⨯ ./src/components/pages/tour-detail/TourDetailExperience.module.css
+Module not found: Can't resolve 'D:\Projects\tourex-intern\next\tourex\src\components\pages\tour-detail\TourDetailExperience.module.css'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./src/components/pages/tour-detail/TourDetailExperience.tsx
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|javascript/auto|D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\build\webpack\loaders\next-flight-css-loader.js??ruleSet[1].rules[14].oneOf[5].use[0]!D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\compiled\mini-css-extract-plugin\loader.js??ruleSet[1].rules[14].oneOf[5].use[1]!D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\build\webpack\loaders\css-loader\src\index.js??ruleSet[1].rules[14].oneOf[5].use[2]!D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\build\webpack\loaders\postcss-loader\src\index.js??ruleSet[1].rules[14].oneOf[5].use[3]!D:\Projects\tourex-intern\next\tourex\src\components\pages\tour-detail\TourDetailExperience.module.css|app-pages-browser': No serializer registered for ModuleNotFoundError
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> webpack/lib/ModuleBuildError -> ModuleNotFoundError
+ ⨯ The requested resource isn't a valid image for /assets/img/banner/banner-5.jpg received null
+ ⨯ The requested resource isn't a valid image for /assets/img/banner/banner-5.jpg received null
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⨯ Failed to generate static paths for /[...not-found]:
+[Error [PageNotFoundError]: Cannot find module for page: /[...not-found]/page] {
+  type: 'PageNotFoundError',
+  code: 'ENOENT'
+}
+ ⨯ The requested resource isn't a valid image for /assets/img/banner/banner-5.jpg received null
+ ⨯ The requested resource isn't a valid image for /assets/img/banner/banner-5.jpg received null
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⨯ The requested resource isn't a valid image for /assets/img/banner/banner-5.jpg received null
+ ⨯ The requested resource isn't a valid image for /assets/img/banner/banner-5.jpg received null
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'D:\Projects\tourex-intern\next\tourex\.next\cache\webpack\server-development\2.pack.gz_' -> 'D:\Projects\tourex-intern\next\tourex\.next\cache\webpack\server-development\2.pack.gz'
+ ⨯ SyntaxError: Unexpected non-whitespace character after JSON at position 4 (line 1 column 5)
+    at JSON.parse (<anonymous>) {
+  page: '/'
+}
+ ⨯ SyntaxError: Unexpected non-whitespace character after JSON at position 4 (line 1 column 5)
+    at JSON.parse (<anonymous>)
+ ⨯ SyntaxError: Unexpected non-whitespace character after JSON at position 4 (line 1 column 5)
+    at JSON.parse (<anonymous>) {
+  page: '/'
+}
+ ⨯ SyntaxError: Unexpected non-whitespace character after JSON at position 4 (line 1 column 5)
+    at JSON.parse (<anonymous>)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'D:\Projects\tourex-intern\next\tourex\.next\cache\webpack\server-development\3.pack.gz_' -> 'D:\Projects\tourex-intern\next\tourex\.next\cache\webpack\server-development\3.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'D:\Projects\tourex-intern\next\tourex\.next\cache\webpack\client-development\1.pack.gz_' -> 'D:\Projects\tourex-intern\next\tourex\.next\cache\webpack\client-development\1.pack.gz'
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⨯ Failed to generate static paths for /[...not-found]:
+[Error: Cannot find module './vendor-chunks/@reduxjs.js'
+Require stack:
+- D:\Projects\tourex-intern\next\tourex\.next\server\webpack-runtime.js
+- D:\Projects\tourex-intern\next\tourex\.next\server\app\[...not-found]\page.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\server\require.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\server\load-components.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\build\utils.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\compiled\jest-worker\processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Failed to generate static paths for /[...not-found]:
+[Error: Cannot find module './vendor-chunks/@reduxjs.js'
+Require stack:
+- D:\Projects\tourex-intern\next\tourex\.next\server\webpack-runtime.js
+- D:\Projects\tourex-intern\next\tourex\.next\server\app\[...not-found]\page.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\server\require.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\server\load-components.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\build\utils.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\compiled\jest-worker\processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Failed to generate static paths for /[...not-found]:
+[Error: Cannot find module './vendor-chunks/@reduxjs.js'
+Require stack:
+- D:\Projects\tourex-intern\next\tourex\.next\server\webpack-runtime.js
+- D:\Projects\tourex-intern\next\tourex\.next\server\app\[...not-found]\page.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\server\require.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\server\load-components.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\build\utils.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\compiled\jest-worker\processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Failed to generate static paths for /[...not-found]:
+[Error: Cannot find module './vendor-chunks/@reduxjs.js'
+Require stack:
+- D:\Projects\tourex-intern\next\tourex\.next\server\webpack-runtime.js
+- D:\Projects\tourex-intern\next\tourex\.next\server\app\[...not-found]\page.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\server\require.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\server\load-components.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\build\utils.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\compiled\jest-worker\processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Failed to generate static paths for /[...not-found]:
+[Error: Cannot find module './vendor-chunks/@reduxjs.js'
+Require stack:
+- D:\Projects\tourex-intern\next\tourex\.next\server\webpack-runtime.js
+- D:\Projects\tourex-intern\next\tourex\.next\server\app\[...not-found]\page.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\server\require.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\server\load-components.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\build\utils.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\compiled\jest-worker\processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/@reduxjs.js'
+Require stack:
+- D:\Projects\tourex-intern\next\tourex\.next\server\webpack-runtime.js
+- D:\Projects\tourex-intern\next\tourex\.next\server\app\[...not-found]\page.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\server\require.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\server\load-components.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\build\utils.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\compiled\jest-worker\processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/_next/static/chunks/main-app.js'
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/@reduxjs.js'
+Require stack:
+- D:\Projects\tourex-intern\next\tourex\.next\server\webpack-runtime.js
+- D:\Projects\tourex-intern\next\tourex\.next\server\app\[...not-found]\page.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\server\require.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\server\load-components.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\build\utils.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\Projects\tourex-intern\next\tourex\node_modules\next\dist\compiled\jest-worker\processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/_next/static/chunks/main-app.js'
+}
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'D:\Projects\tourex-intern\next\tourex\.next\cache\webpack\client-development\0.pack.gz_' -> 'D:\Projects\tourex-intern\next\tourex\.next\cache\webpack\client-development\0.pack.gz'
+ ⨯ ./src/components/pages/tour-detail/TourDetailExperience.tsx
+Error: 
+
+Caused by:
+    0: Failed to read source code from D:\Projects\tourex-intern\next\tourex\src\components\pages\tour-detail\TourDetailExperience.tsx
+    1: The system cannot find the file specified. (os error 2)
+
+Import trace for requested module:
+./src/components/pages/tour-detail/TourDetailExperience.tsx
+./src/app/tour-detail/[slug]/page.tsx

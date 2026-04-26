@@ -13,11 +13,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const tourPackage = getTourPackageBySlug(slug);
 
   return {
-    title: `${tourPackage.title} | Tourex`
+    title: `${tourPackage.title} - Payment | Tourex`
   };
 }
 
-const TourDetailPage = async ({ params }: PageProps) => {
+const TourDetailPaymentPage = async ({ params }: PageProps) => {
   const { slug } = await params;
   const tourPackage = getTourPackageBySlug(slug);
 
@@ -25,11 +25,11 @@ const TourDetailPage = async ({ params }: PageProps) => {
     <>
       <HeaderThree solid />
       <main>
-        <TourDetailExperience tourPackage={tourPackage} step="search_results" />
+        <TourDetailExperience tourPackage={tourPackage} step="payment" />
       </main>
       <FooterSix />
     </>
   );
 };
 
-export default TourDetailPage;
+export default TourDetailPaymentPage;
